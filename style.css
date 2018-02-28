@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-family: "Arial";
+  color: rgb(212, 195, 195);
+}
+
+/* canvas */
+body {
+  background-color: darkslategray;
+}
+
+#container {
+  margin: auto;
+  max-width: 600px;
+  width: 40em;
+  height: 25em;
+}
+
+.grid {
+  margin: auto;
+  max-width: 600px;
+}
+
+.pixels {
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border: 1px solid lightgray;
+  float: left;
+  cursor: crosshair;
+}
+
+/* palette */
+.colorTray {
+  width: 3em;
+  height: 3em;
+  border: 0.75px solid lightgray;
+  float: left;
+  margin: auto;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.pickedColor {
+  width: 37em;
+  height: 2.5em;
+  float: left;
+  border: 1px solid white;
+  margin-top: 2%;
+  text-align: center;
+  color: lightgray;
+  padding-top: 3.5%;
+  margin-bottom: 3.5%;
+}
